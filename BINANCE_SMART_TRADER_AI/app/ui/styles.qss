@@ -1,0 +1,164 @@
+/* BINANCE SMART TRADER AI - Local Windows QSS Theme */
+QMainWindow, QWidget {
+    background-color: #0B0E14;
+    color: #E2E8F0;
+    font-family: "Segoe UI", "Arial", sans-serif;
+    font-size: 13px;
+}
+
+QFrame#Sidebar {
+    background-color: #101520;
+    border-right: 1px solid #1E293B;
+}
+
+QFrame#TopBar {
+    background-color: #101520;
+    border-bottom: 1px solid #1E293B;
+}
+
+QFrame#Card {
+    background-color: #131A26;
+    border: 1px solid #1E293B;
+    border-radius: 10px;
+}
+
+QLabel#TitleLabel {
+    font-size: 18px;
+    font-weight: 700;
+    color: #F8FAFC;
+}
+
+QLabel#SectionTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #F1F5F9;
+}
+
+QLabel#MutedLabel {
+    font-size: 12px;
+    color: #94A3B8;
+}
+
+QLabel#MonoMetric {
+    font-family: "Consolas", "Courier New", monospace;
+    font-size: 16px;
+    font-weight: 700;
+    color: #F8FAFC;
+}
+
+QPushButton {
+    background-color: #1E293B;
+    color: #E2E8F0;
+    border: 1px solid #334155;
+    border-radius: 8px;
+    padding: 7px 14px;
+    font-weight: 600;
+}
+
+QPushButton:hover {
+    background-color: #273549;
+    border-color: #475569;
+}
+
+QPushButton:pressed {
+    background-color: #172030;
+}
+
+QPushButton#PrimaryBtn {
+    background-color: #0284C7;
+    color: #FFFFFF;
+    border: 1px solid #0EA5E9;
+}
+
+QPushButton#PrimaryBtn:hover {
+    background-color: #0369A1;
+}
+
+QPushButton#LongBtn {
+    background-color: #064E3B;
+    color: #34D399;
+    border: 1px solid #10B981;
+}
+
+QPushButton#ShortBtn {
+    background-color: #7F1D1D;
+    color: #FCA5A5;
+    border: 1px solid #EF4444;
+}
+
+QPushButton#NavButton {
+    text-align: left;
+    background-color: transparent;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    padding: 9px 12px;
+    color: #94A3B8;
+    font-weight: 500;
+}
+
+QPushButton#NavButton:hover {
+    background-color: #161E2E;
+    color: #F1F5F9;
+}
+
+QPushButton#NavButton[active="true"] {
+    background-color: #1A2436;
+    color: #38BDF8;
+    border: 1px solid #26354D;
+    font-weight: 700;
+}
+
+QLineEdit, QComboBox, QDoubleSpinBox, QSpinBox, QPlainTextEdit, QTextEdit {
+    background-color: #0F141E;
+    color: #F1F5F9;
+    border: 1px solid #273449;
+    border-radius: 8px;
+    padding: 6px 10px;
+    selection-background-color: #0284C7;
+}
+
+QLineEdit:focus, QComboBox:focus, QDoubleSpinBox:focus, QSpinBox:focus {
+    border-color: #38BDF8;
+}
+
+QTableWidget, QTableView {
+    background-color: #0F141E;
+    alternate-background-color: #121826;
+    gridline-color: #1E293B;
+    border: 1px solid #1E293B;
+    border-radius: 8px;
+    color: #E2E8F0;
+    selection-background-color: #1D3557;
+}
+
+QHeaderView::section {
+    background-color: #141C2B;
+    color: #94A3B8;
+    padding: 7px 10px;
+    border: none;
+    border-bottom: 1px solid #1E293B;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+QScrollBar:vertical {
+    background: #0B0E14;
+    width: 8px;
+}
+
+QScrollBar::handle:vertical {
+    background: #273549;
+    border-radius: 4px;
+    min-height: 24px;
+}
+
+QScrollBar:horizontal {
+    background: #0B0E14;
+    height: 8px;
+}
+
+QScrollBar::handle:horizontal {
+    background: #273549;
+    border-radius: 4px;
+    min-width: 24px;
+}

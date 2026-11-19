@@ -1,0 +1,8 @@
+{
+  "name": "Binance Smart Trader AI",
+  "description": "Autonomous real-time Binance market scanner, multi-factor LONG/SHORT signal engine, risk manager, trade journal, and Windows PySide6 desktop trading terminal.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
